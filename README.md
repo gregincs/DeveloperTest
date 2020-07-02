@@ -8,5 +8,10 @@ As apis do exercicio estão hospedadas na cloud Heroku. O Heroku Free após um t
 **Endereços**
 
 https://api1developertest.herokuapp.com/swagger/
-
 https://api2developertest.herokuapp.com/swagger/
+
+
+**Considerações**
+
+ - Os Dockerfile estão em seus respectivos .csproj para que sejam independentes.
+ - Caso decida rodar a Api1 no Docker, alterar o config da Api2 para apontar para o endereço correto da Api1
